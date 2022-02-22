@@ -2,6 +2,8 @@ require('dotenv').config(); // Initiate .env file for environment variables
 const express = require('express'); // Instantiate express
 const app = express(); // Assign express constructor to a variable
 
+app.use('/places', require('./controllers/places')); // Set all routes in the places controller relative to /places. Means that /places will be added in front of all endpoints we define in the controller! 
+                                                    
 // GET Endpoint for '/' or homepage
 app.get('/', (req, res) => {
     res.send("Hello World")
