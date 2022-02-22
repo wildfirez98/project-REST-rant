@@ -4,18 +4,18 @@ REST-Rant is an app where users can review restaurants.
 
 ## February 22, 2022
 1.) Setup project initial steps with "Express Checklist"
-        -Create new folder
-        -Create index.js
-        -Run "npm init -y" to create package.json file with defaults
-        -Run "npm install express" so we can make our project an Express framework application
-        -Require express at the top of the index.js file
-        -Initialize the app variable
-        -Create a home page route:
-            a. Call app.get()
-            b. Set ‘/‘ as the path (first arg)
-            c. Write callback function with (req, res) as second arg
-            d. Call res.send("Hello World")
-        -Call app.listen(3000) to keep server open
+         -Create new folder
+         -Create index.js
+         -Run "npm init -y" to create package.json file with defaults
+         -Run "npm install express" so we can make our project an Express framework application
+         -Require express at the top of the index.js file
+         -Initialize the app variable
+         -Create a home page route:
+             a. Call app.get()
+             b. Set ‘/‘ as the path (first arg)
+             c. Write callback function with (req, res) as second arg
+             d. Call res.send("Hello World")
+         -Call app.listen(3000) to keep server open
 
 2.) Additional Steps:
         -Setup .gitignore file
