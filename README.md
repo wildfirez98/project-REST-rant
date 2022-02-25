@@ -72,5 +72,8 @@ REST-Rant is an app where users can review restaurants.
 
 3.) Creating a home page:
 - Create 'home.jsx' in 'views' folder
+- Update 'res.send' to 'res.render('home') in index.js
 
-4.) Continue building README 
+4.) Make a 404 page
+- Create 'error404.jsx' inside 'views' folder
+- Update 'res.send' to 'res.render('error404') in 'index.js'

@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 
 // GET Wildcard route - MUST be at end of the list of endpoints so it doesn't override other endpoints
 app.get('*', (req, res) => {
-    res.status(404).send('<h1>404 Page Not Found</h1>') // Insert <h1> tag with 404 text if endpoint is not valid and display on page
+    res.status(404).render('error404') // Insert <h1> tag with 404 text if endpoint is not valid and display on page
 });
 
 // Keep server socket open with listening to a PORT from the .env file and log to console "I'm awake" so we know the server is open
