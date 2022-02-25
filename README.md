@@ -80,3 +80,7 @@ REST-Rant is an app where users can review restaurants.
 
 5.) Make Places index page
 - Create new folder called 'places' in 'views'
+- Create a view called 'index.jsx' 
+- Update 'places.js' to point to 'index.jsx'
+
+6.) Pass mock data into 'places.js' 
