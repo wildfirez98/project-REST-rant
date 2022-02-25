@@ -13,6 +13,11 @@ app.get('/', (req, res) => {
     res.render('home')
 });
 
+// GET Endpoint for '/places'
+app.get('/places', (req, res) => {
+    res.render('index')
+});
+
 // GET Wildcard route - MUST be at end of the list of endpoints so it doesn't override other endpoints
 app.get('*', (req, res) => {
     res.status(404).render('error404') // Insert <h1> tag with 404 text if endpoint is not valid and display on page
