@@ -66,10 +66,11 @@ REST-Rant is an app where users can review restaurants.
      |            |              |              |                |                                    |
 
 2.) Making default view:
-- Run "npm i react express-react" this will install both 'react' and 'express-react-views'
+- Run "npm i react express-react-views" this will install both 'react' and 'express-react-views'
 - Create 'views' folder in project
 - Create 'default.jsx' in 'views' folder
 
-3.) Creating a layout page
+3.) Creating a home page:
+- Create 'home.jsx' in 'views' folder
 
 4.) Continue building README 
