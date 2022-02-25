@@ -51,8 +51,9 @@ REST-Rant is an app where users can review restaurants.
      | GET    |               *              |    404 page (matches any route not defined above)    |  
 
 - Planning mock restaurant data
-    - Drawing wireframes
-    - Making first view
+    - Drawing wireframes - INCOMPLETE
+    - Choose color scheme for project - INCOMPLETE
+    - Making first view - COMPLETE                
 
 ## February 24, 2022 ##
 
@@ -64,3 +65,11 @@ REST-Rant is an app where users can review restaurants.
      | ---------- | ------------ | ------------ | -------------- | ---------------------------------- |
      |            |              |              |                |                                    |
 
+2.) Making default view:
+- Run "npm i react express-react" this will install both 'react' and 'express-react-views'
+- Create 'views' folder in project
+- Create 'default.jsx' in 'views' folder
+
+3.) Creating a layout page
+
+4.) Continue building README 
