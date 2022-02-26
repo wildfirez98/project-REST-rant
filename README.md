@@ -89,3 +89,7 @@ REST-Rant is an app where users can review restaurants.
 
 1.) Adding style with CSS
 - Use Bootstrap framework
+- Add CDN link to 'default.jsx'
+- Create 'public' folder and create 'style.css' for own personal styling
+- Add CSS link to 'default.jsx'
+- Add 'images' folder to 'public' folder

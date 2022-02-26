@@ -3,17 +3,17 @@ const router = require('express').Router(); //Instantiate router contoller thru 
 // GET /places
 router.get('/', (req,res) => { // First route - GET route that will eventually show a list of all places
     let places = [{
-        name: 'H-Thai-ML',
-        city: 'Seattle',
-        state: 'WA',
-        cuisines: 'Thai, Pan-Asian',
-        pic: 'http://placekitten.com/250/250'
+        name: 'J-Gilberts',
+        city: 'Overland Park',
+        state: 'KS',
+        cuisines: 'Steak, Seafood',
+        pic: 'images/steak.jpg'
       }, {
-        name: 'Coding Cat Cafe',
-        city: 'Phoenix',
-        state: 'AZ',
-        cuisines: 'Coffee, Bakery',
-        pic: 'http://placekitten.com/250/250'
+        name: 'Italian Delight',
+        city: 'Kansas City',
+        state: 'KS',
+        cuisines: 'Pizza, Pasta',
+        pic: 'images/italian.jpg'
       }]
     res.render('places/index', {places})
 });

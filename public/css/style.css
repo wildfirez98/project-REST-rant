@@ -1,4 +1,9 @@
 h1 {
     text-align: center;
     color: cornflowerblue;
-  }
+}
+
+  img {
+    max-width:100%;
+    height:auto;
+}  
