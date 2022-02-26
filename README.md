@@ -84,3 +84,8 @@ REST-Rant is an app where users can review restaurants.
 - Update 'places.js' to point to 'index.jsx'
 
 6.) Pass mock data into 'places.js' 
+
+## February 26th, 2022 ##
+
+1.) Adding style with CSS
+- Use Bootstrap framework

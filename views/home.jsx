@@ -7,6 +7,9 @@ function home () { // Create 'home' stub function and then export it
         <Def>
             <main>
                 <h1>Home</h1>
+                    <a href="/places">
+                        <button className="btn-primary">Places Page</button>
+                    </a>
             </main>
         </Def>
     )
