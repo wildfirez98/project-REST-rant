@@ -93,3 +93,13 @@ REST-Rant is an app where users can review restaurants.
 - Create 'public' folder and create 'style.css' for own personal styling
 - Add CSS link to 'default.jsx'
 - Add 'images' folder to 'public' folder
+
+## February 27th, 2022 ##
+
+1.) Adding Form view 
+- Want user to be able and click a button or link for 'Add a New Place' that will be access via a GET route to the path /places/new
+- Create 'new.jsx' in 'places' folder (this is where all the Form data will be held)
+- Create '/places/new' route in '/controllers/places.js'
+- Add body parser to 'index.js'
+- Create folder 'models' and add file called 'places.js' to hold places array that was in 'controller/places.js'
+- Test adding a place - COMPLETED 
