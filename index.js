@@ -8,6 +8,7 @@ app.set('view engine', 'jsx') // Defines the JSX view engine
 app.engine('jsx', require('express-react-views').createEngine())
 app.use(express.static('public'))
 app.use('/places', require('./controllers/places')); // Set all routes in the places controller relative to /places. Means that /places will be added in front of all endpoints we define in the controller! 
+app.use(express.urlencoded({ extended: true })) // Body parser, decrypt POST content
 
 // Controllers & Routes
 

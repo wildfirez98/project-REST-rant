@@ -1,6 +1,6 @@
 const router = require('express').Router(); //Instantiate router contoller thru express 
 
-// GET /places ROUTE
+// GET - /places endpoint
 router.get('/', (req,res) => { // First route - GET route that will eventually show a list of all places
     let places = [{
         name: 'J-Gilberts',
@@ -18,9 +18,16 @@ router.get('/', (req,res) => { // First route - GET route that will eventually s
     res.render('places/index', {places})
 });
 
-// GET /places/new ROUTE
+// POST - /places - Create new place endpoint
+router.post('/', (req, res) => {
+  res.send('POST /places')
+})
+
+// GET - /places/new endpoint
 router.get('/new', (req, res) => {
+  console.log(req.body)
   res.render('places/new')
 })
+
 
 module.exports = router
