@@ -1,6 +1,6 @@
 const router = require('express').Router(); //Instantiate router contoller thru express 
 
-// GET /places
+// GET /places ROUTE
 router.get('/', (req,res) => { // First route - GET route that will eventually show a list of all places
     let places = [{
         name: 'J-Gilberts',
@@ -17,5 +17,10 @@ router.get('/', (req,res) => { // First route - GET route that will eventually s
       }]
     res.render('places/index', {places})
 });
+
+// GET /places/new ROUTE
+router.get('/new', (req, res) => {
+  res.render('places/new')
+})
 
 module.exports = router
