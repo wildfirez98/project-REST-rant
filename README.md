@@ -103,3 +103,6 @@ REST-Rant is an app where users can review restaurants.
 - Add body parser to 'index.js'
 - Create folder 'models' and add file called 'places.js' to hold places array that was in 'controller/places.js'
 - Test adding a place - COMPLETED 
+
+## February 28th, 2022 ##
+
