@@ -116,6 +116,6 @@ REST-Rant is an app where users can review restaurants.
 - Install method-override package
      - npm install method-override
 
-5.) Make Edit and Delete Buttons - NOT COMPLETE
+5.) Make Edit and Delete Buttons - NOT COMPLETE - REVIEW VIDEO @ 7:54 for ERROR HELP
 
 6.) Implement Delete Route - NOT COMPLETE
