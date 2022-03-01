@@ -2,12 +2,14 @@
 require('dotenv').config(); // Initiate .env file for environment variables
 const express = require('express'); // Instantiate express
 const app = express(); // Assign express constructor to a variable
+const methodOverride = require('method-override') // Method-override package so we can PUT or DELETE 
 
 // Express Settings
 app.set('view engine', 'jsx') // Defines the JSX view engine
 app.engine('jsx', require('express-react-views').createEngine())
 app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true })) // Body parser, decrypt POST content
+app.use(methodOverride('_method'))
 
 // Controllers & Routes
 app.use('/places', require('./controllers/places')); // Set all routes in the places controller relative to /places. Means that /places will be added in front of all endpoints we define in the controller! 

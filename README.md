@@ -106,5 +106,16 @@ REST-Rant is an app where users can review restaurants.
 
 ## February 28th, 2022 ##
 
-1.) Add Navbar and CSS styling
-2.) Connect the Show route
+1.) Add Navbar and CSS styling - COMPLETED
+
+2.) Connect the Show route - COMPLETED
+
+3.) Fill out the 'show.jsx' file - 50% Complete
+
+4.) Implement Method Override - COMPLETED
+- Install method-override package
+     - npm install method-override
+
+5.) Make Edit and Delete Buttons - NOT COMPLETE
+
+6.) Implement Delete Route - NOT COMPLETE
