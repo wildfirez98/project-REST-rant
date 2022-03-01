@@ -110,12 +110,14 @@ REST-Rant is an app where users can review restaurants.
 
 2.) Connect the Show route - COMPLETED
 
-3.) Fill out the 'show.jsx' file - 50% Complete
+3.) Fill out the 'show.jsx' file - 90% Complete - Images not working yet
 
 4.) Implement Method Override - COMPLETED
 - Install method-override package
      - npm install method-override
 
-5.) Make Edit and Delete Buttons - NOT COMPLETE - REVIEW VIDEO @ 7:54 for ERROR HELP
+5.) Make Edit and Delete Buttons - COMPLETED 
 
-6.) Implement Delete Route - NOT COMPLETE
+6.) Implement Delete Route - COMPLETED
+
+7.) Implement Edit form and functionality, adding a PUT route - NOT COMPLETE
