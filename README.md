@@ -106,3 +106,5 @@ REST-Rant is an app where users can review restaurants.
 
 ## February 28th, 2022 ##
 
+1.) Add Navbar and CSS styling
+2.) Connect the Show route
