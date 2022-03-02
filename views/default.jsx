@@ -23,6 +23,9 @@ function Def (html) { // Create a stub function called Def with one parameter ht
                     </ul>
                 </nav>
                 {html.children}
+                <div class="footer">
+                    <p>Fixed Footer</p>
+                </div>
             </body>
         </html>
     )

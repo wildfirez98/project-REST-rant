@@ -44,6 +44,16 @@ main {
   background-color: #BFB8AD;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #998888;
+  color: white;
+  text-align: center;
+}
+
 .form-group {
   padding:10px;
 }
