@@ -36,19 +36,19 @@ REST-Rant is an app where users can review restaurants.
 
 - Stub remaining GET and POST routes
 
-     | Method |       Path                   |                    Purpose                           |
-     | ------ | ---------------------------- | ---------------------------------------------------- |
-     | GET    |     /                        |	Home page                                         |
-     | GET    |     /places                  |	Places index page                                 |
-     | POST   |     /places                  |	Create new place                                  |
-     | GET    |     /places/new              |	Form page for creating a new place                |
-     | GET    |     /places/:id              |	Details about a particular place                  |
-     | PUT    |     /places/:id              |	Update a particular place                         |
-     | GET    |     /places/:id/edit         |	Form page for editing an existing place           |
-     | DELETE |     /places/:id              |	Delete a particular place                         |
-     | POST   |     /places/:id/rant         |	Create a rant (comment) about a particular place  |
-     | DELETE |     /places/:id/rant/:rantId |    Delete a rant (comment) about a particular place  |
-     | GET    |               *              |    404 page (matches any route not defined above)    |  
+     | Method |       Path                   |                    Purpose                           |        Status       |
+     | ------ | ---------------------------- | ---------------------------------------------------- | ------------------- |
+     | GET    |     /                        |	Home page                                         |         DONE        |
+     | GET    |     /places                  |	Places index page                                 |         DONE        |
+     | POST   |     /places                  |	Create new place                                  |         DONE        |   
+     | GET    |     /places/new              |	Form page for creating a new place                |         DONE        |
+     | GET    |     /places/:id              |	Details about a particular place                  |         DONE        |
+     | PUT    |     /places/:id              |	Update a particular place                         |         DONE        |
+     | GET    |     /places/:id/edit         |	Form page for editing an existing place           |         DONE        |
+     | DELETE |     /places/:id              |	Delete a particular place                         |         DONE        |
+     | POST   |     /places/:id/rant         |	Create a rant (comment) about a particular place  |       INCOMPLETE    |
+     | DELETE |     /places/:id/rant/:rantId |    Delete a rant (comment) about a particular place  |       INCOMPLETE    |
+     | GET    |               *              |    404 page (matches any route not defined above)    |         DONE        |
 
 - Planning mock restaurant data
     - Drawing wireframes - INCOMPLETE
@@ -120,4 +120,8 @@ REST-Rant is an app where users can review restaurants.
 
 6.) Implement Delete Route - COMPLETED
 
-7.) Implement Edit form and functionality, adding a PUT route - NOT COMPLETE
+7.) Implement Edit form and functionality, adding a PUT route - COMPLETED
+
+## February 29th, 2022 ##
+
+1.) Continue with Part 7 from 2/28 - COMPLETED
