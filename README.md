@@ -125,3 +125,9 @@ REST-Rant is an app where users can review restaurants.
 ## February 29th, 2022 ##
 
 1.) Continue with Part 7 from 2/28 - COMPLETED
+
+## March 5th, 2022 ##
+
+1.) Connecting to MongoDB with Mongoose
+- Run 'npm install mongoose'
+- Create 'index.js' in 'models' folder. This is where we will call Mongoose in our app.
