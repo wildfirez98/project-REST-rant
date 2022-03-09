@@ -131,3 +131,10 @@ REST-Rant is an app where users can review restaurants.
 1.) Connecting to MongoDB with Mongoose
 - Run 'npm install mongoose'
 - Create 'index.js' in 'models' folder. This is where we will call Mongoose in our app.
+- Had to create 'dev' branch of project. Installing mongoose and linking the app to MongoDB proved challenging
+- Moving forward will continue work on 'dev' branch and only push final or milestone updates to 'main' branch
+
+## March 8th, 2002 ##
+
+1.) Seeding data, validations, and helper methods
+2.) Create 'seeders' folder and create 'seed-places.js' within the folder
