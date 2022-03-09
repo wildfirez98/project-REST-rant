@@ -7,7 +7,7 @@ function show ({place, id}) {
           <main>
             <h1>{place.name}</h1>
             <img src={place.pic} alt={place.name}/>
-            <h3>{place.showEstablished}</h3>
+            <h3>{place.showEstablished()}</h3>
             <h4>Serving {place.cuisines}</h4>
             <h2>Rating</h2>
             <p>Currently Unrated</p>
