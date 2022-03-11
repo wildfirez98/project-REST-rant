@@ -10,7 +10,7 @@ function show ({place}) {
     if (place.comments.length) {
       comments = place.comments.map (c => {
         return (
-          <div className='border'>
+          <div className='border col-sm-4'>
             <h2 className='rant'>{c.rant ? 'Rant! 😡' : 'Rave! 🔥' }</h2>
             <h4>{c.content}</h4>
             <h3>
@@ -24,17 +24,47 @@ function show ({place}) {
     return (
         <Def>
           <main>
-            <h1>{place.name}</h1>
-            <img src={place.pic} alt={place.name}/>
-            <h3>{place.showEstablished()}</h3>
-            <h4>Serving {place.cuisines}</h4>
-            <h2>Rating</h2>
-            <p>Currently Unrated</p>
-            <h2>Description</h2>
-            <p>Located in {place.city}, {place.state}</p>
-            <h1>Comments</h1>
-            <p>{comments}</p>
-            <h2>Got Your Own Rant or Rave?</h2>
+            <div className='row'>
+              <div className='col-sm-6'>
+                <img src={place.pic} alt={place.name}/>
+                <h3>
+                <p>Located in {place.city}, {place.state}</p>
+                </h3>
+                </div>  
+              <div className='col-sm-6'>
+                <h1>{place.name}</h1>
+                <h2>
+                  Rating
+                  <p>Currently Unrated</p>
+                </h2>
+                <br />
+                <h2>
+                  Description
+                </h2>
+                <h3>
+                  {place.showEstablished()}
+                </h3>
+                <h4>
+                  Serving {place.cuisines}
+                </h4>
+                <br />
+                <a href={`/places/${place.id}/edit`} className="btn btn-warning">
+                  Edit
+                </a>
+                <form method="POST" action={`/places/${place.id}?_method=DELETE`}>
+                  <button type="submit" className="btn btn-danger">
+                    Delete
+                  </button>
+                </form>
+              </div>
+            </div>
+            <br />
+            <h2>Comments</h2>
+            <div className='row'>
+              {comments}
+            </div>
+            <br />
+            <h2>Want to Rant or Rave?</h2>
             <form action={`/places/${place.id}/comment`} method="POST">
               <div className="row">
                 <div className="form-group col-sm-12">
@@ -57,10 +87,6 @@ function show ({place}) {
                 </div>
               </div>
               <input type="submit" className="btn btn-primary" value="Add Comment" />
-            </form>
-            <a href={`/places/${place.id}/edit`} className="btn btn-warning">Edit</a>
-            <form method="POST" action={`/places/${place.id}?_method=DELETE`}>
-                <button type="submit" className="btn btn-danger">Delete</button>
             </form>
           </main>
         </Def>
