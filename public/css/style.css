@@ -78,3 +78,9 @@ main {
 .btn-danger {
   margin:10px 0;
 }
+
+.form-switch .form-check-input[type=checkbox] {
+  border-radius: 5em;
+  height: 30px;
+  width: 100px;
+}

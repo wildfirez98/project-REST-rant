@@ -1,6 +1,7 @@
 const React = require('react')
 const Def = require('../default')
 
+
 function show ({place}) {
     let comments = (
       <h3 className='inactive'>
@@ -79,11 +80,13 @@ function show ({place}) {
                 </div>
                 <div className="form-group col-sm-4">
                   <label htmlFor="stars">Star Rating</label>
-                  <input type="range" step="0.5" min="1" max="5" id="stars" name="stars" className="form-control" />
+                  <input type="range" class="form-range" step="0.5" min="1" max="5" id="stars" name="stars" className="form-control" />
                 </div>
-                <div className="form-group col-sm-2">
+                <div className="form-group col-sm-1">
                   <label htmlFor="rant">Rant?</label>
-                  <input type="checkbox" id="rant" name="rant" className="form-control" />
+                  <div className='form-check form-switch'>
+                    <input class ="form-check-input" type="checkbox" id="rant" name="rant" className="form-control" />
+                  </div>
                 </div>
               </div>
               <input type="submit" className="btn btn-primary" value="Add Comment" />
