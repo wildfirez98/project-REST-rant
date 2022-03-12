@@ -5,7 +5,9 @@ h1 {
 
 img {
     max-width:50%;
-    height:auto;
+    height: 500px;
+    width: 500px;
+    object-fit: cover
 }
 
 nav {
@@ -36,6 +38,9 @@ nav a:hover {
 body {
   background-color: #BFB8AD;
   text-align: center;
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 main {
@@ -72,4 +77,10 @@ main {
 
 .btn-danger {
   margin:10px 0;
+}
+
+.form-switch .form-check-input[type=checkbox] {
+  border-radius: 5em;
+  height: 30px;
+  width: 100px;
 }

@@ -6,7 +6,7 @@ function home () { // Create 'home' stub function and then export it
     return (
         <Def>
             <main>
-                <h1>Home</h1>
+                <h1>REST-Rant</h1>
                 <div>
                     <img src="/images/ramen.jpg" alt="Ramen"/>
                     <div>
