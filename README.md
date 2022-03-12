@@ -134,13 +134,17 @@ REST-Rant is an app where users can review restaurants.
 - Had to create 'dev' branch of project. Installing mongoose and linking the app to MongoDB proved challenging
 - Moving forward will continue work on 'dev' branch and only push final or milestone updates to 'main' branch
 
-## March 8th, 2020 ##
+## March 8th, 2022 ##
 
 1.) Seeding data, validations, and helper methods
 
 2.) Create 'seeders' folder and create 'seed-places.js' within the folder
 
-## March 10th, 2020 ##
+## March 10th, 2022 ##
 
-1.) Adding commentary: rants and raves!
+1.) Adding commentary: rants and raves! - COMPLETED
+
+## March 12th, 2022 ##
+
+1.) Populating data for star ratings
 
