@@ -46,8 +46,8 @@ REST-Rant is an app where users can review restaurants.
      | PUT    |     /places/:id              |	Update a particular place                         |         DONE        |
      | GET    |     /places/:id/edit         |	Form page for editing an existing place           |         DONE        |
      | DELETE |     /places/:id              |	Delete a particular place                         |         DONE        |
-     | POST   |     /places/:id/rant         |	Create a rant (comment) about a particular place  |       INCOMPLETE    |
-     | DELETE |     /places/:id/rant/:rantId |    Delete a rant (comment) about a particular place  |       INCOMPLETE    |
+     | POST   |     /places/:id/rant         |	Create a rant (comment) about a particular place  |         DONE        |
+     | DELETE |     /places/:id/rant/:rantId |    Delete a rant (comment) about a particular place  |         DONE        |
      | GET    |               *              |    404 page (matches any route not defined above)    |         DONE        |
 
 - Planning mock restaurant data
@@ -147,4 +147,8 @@ REST-Rant is an app where users can review restaurants.
 ## March 12th, 2022 ##
 
 1.) Populating data for star ratings
+
+## March 16th, 2022 ##
+
+1.) Deployment to Heroku!
 
