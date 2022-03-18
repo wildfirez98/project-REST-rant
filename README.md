@@ -148,7 +148,6 @@ REST-Rant is an app where users can review restaurants.
 
 1.) Populating data for star ratings
 
-## March 16th, 2022 ##
+## March 18th, 2022 ##
 
 1.) Deployment to Heroku!
-
